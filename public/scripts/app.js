@@ -33,7 +33,7 @@ var PixelArtMaker = function (_React$Component) {
                 React.createElement(
                     'h1',
                     null,
-                    'Hello'
+                    'Pixel Art Maker'
                 ),
                 React.createElement(PixelBoard, {
                     pixels: this.state.pixels,
