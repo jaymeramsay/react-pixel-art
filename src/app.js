@@ -10,7 +10,7 @@ class PixelArtMaker extends React.Component {
     render() {
         return (
             <div>
-            <h1>Hello</h1>
+            <h1>Pixel Art Maker</h1>
             <PixelBoard 
                 pixels={this.state.pixels}
                 className='pixel-board'
