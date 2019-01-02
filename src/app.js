@@ -1,1 +1,6 @@
-console.log('pixel art maker is running!')
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+const template = React.createElement('p', {}, 'testing');
+
+ReactDOM.render(template, document.getElementById('app'));
