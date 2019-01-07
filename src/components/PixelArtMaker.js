@@ -1,5 +1,6 @@
 import React from 'react';
 
+import Header from './Header'
 import PixelBoard from './PixelBoard';
 import Toolbar from './Toolbar';
 
@@ -13,7 +14,7 @@ export default class PixelArtMaker extends React.Component {
     render() {
         return (
             <div>
-            <h1>Pixel Art Maker</h1>
+            <Header />
             <PixelBoard 
                 pixels={this.state.pixels}
                 className='pixel-board'
